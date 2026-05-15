@@ -1,0 +1,22 @@
+# ============================================================
+# Movie Rental Data Warehouse — Python Dependencies
+# ============================================================
+# Install all dependencies with:
+#   pip install -r requirements.txt
+#
+# Python version: 3.12+
+# ============================================================
+
+# ── Core Data Processing ─────────────────────────────────────
+pandas==3.0.2                  # DataFrame operations and transformations
+
+# ── Data Validation ──────────────────────────────────────────
+pandera==0.31.1                # Schema-based DataFrame validation (data contracts)
+
+# ── Database Connectivity ─────────────────────────────────────
+SQLAlchemy==2.0.49             # SQL toolkit and ORM — used for DB engine connections
+PyMySQL==2.2.8                 # MySQL driver — connects SQLAlchemy to Sakila OLTP
+
+# ── Notebook Environment ──────────────────────────────────────
+ipykernel==7.2.0               # Jupyter kernel for Python
+notebook==7.5.6                # Jupyter Notebook interface
